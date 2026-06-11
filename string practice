@@ -1,0 +1,462 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "ef361d5f-a7cb-4309-b463-c4a53c72b23a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "mokshitha\n"
+     ]
+    }
+   ],
+   "source": [
+    "name=\"mokshitha\"\n",
+    "print(name)\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "5231618e-9a56-4f1a-a4f4-3ba935df6bb5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "ananya\n"
+     ]
+    }
+   ],
+   "source": [
+    "name=\"ananya\"\n",
+    "print(name)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "4c2c70fb-7c02-4559-8125-f4b2927dffbe",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "mokshitha\n",
+      "mokshithamalkuri@gmail.com\n"
+     ]
+    }
+   ],
+   "source": [
+    "name=\"mokshitha\"\n",
+    "email=\"mokshithamalkuri@gmail.com\"\n",
+    "print(name)\n",
+    "print(email)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "e3de43ec-80b7-4b21-acb4-0c874e9dd4f2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "ananya\n",
+      "ananyagidige@gmail.com\n"
+     ]
+    }
+   ],
+   "source": [
+    "name=\"ananya\"\n",
+    "email=\"ananyagidige@gmail.com\"\n",
+    "print(name)\n",
+    "print(email)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "1b3df392-3cbe-4f16-9fdb-4a1d8b879f5b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hi\n"
+     ]
+    }
+   ],
+   "source": [
+    "city=\"China\"\n",
+    "print(city[1:3])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "f8e3401d-f4d3-4a52-a3cd-d8a3d0fc2ab1",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "r\n"
+     ]
+    }
+   ],
+   "source": [
+    "city=\"America\"\n",
+    "print(city[-4])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "fe7b2478-288b-4877-a693-49cf42ba96d2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "t\n"
+     ]
+    }
+   ],
+   "source": [
+    "animal=\"Elephant\"\n",
+    "print(animal[7])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "fe09c58c-9ac6-4dca-a4e4-ef060f4fe24f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "h\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(animal[-4])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "269c637b-c090-4e66-b6e4-1d147fb73a5e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "l\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(animal[1:2])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "a992a080-ae09-47c5-a719-4683c9df11ae",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "okshi\n"
+     ]
+    }
+   ],
+   "source": [
+    " name=\"mokshitha\"\n",
+    " print(name[1:6])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "7e56cc37-fa51-4fc9-aef7-9acb01b84b2f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "9\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(len(name))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "53366da9-7ec3-40b1-8807-7795889aa246",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "mokshitha goud\n"
+     ]
+    }
+   ],
+   "source": [
+    "name1=\"mokshitha\"\n",
+    "name2=\"goud\"\n",
+    "print(name1+\" \"+name2)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "01a92b70-bae6-4093-9e79-b765f83b3c84",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "HelloHelloHello\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Hello\" * 3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "id": "802ccd38-94d9-466c-b759-a4c121d0bb06",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "MOKSHITHA\n"
+     ]
+    }
+   ],
+   "source": [
+    "name=\"mokshitha\"\n",
+    "print(name.upper())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "id": "654e1d3b-c7c6-412e-a354-d4258211861d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "mokshitha\n"
+     ]
+    }
+   ],
+   "source": [
+    "name=\"MOKSHITHA\"\n",
+    "print(name.lower())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "id": "d36502c1-5d51-47d6-8d5d-6c9bb1a20179",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "mokshitha\n"
+     ]
+    }
+   ],
+   "source": [
+    "name=\"mokshitha\"\n",
+    "print(name.lower())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "b07f323c-6427-4fa8-81d2-1e7c0b37ea35",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "I like python\n"
+     ]
+    }
+   ],
+   "source": [
+    "m=\"I like java\"\n",
+    "print(m.replace(\"java\" , \"python\"))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "ffa0f47f-752f-452c-b9e7-b047ef526598",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "9\n"
+     ]
+    }
+   ],
+   "source": [
+    "m=\"anything something\"\n",
+    "print(m.find(\"something\"))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "e1cbfbac-cbc2-40a1-8ff1-a0bd5f752751",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter the name : Mokshitha\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "welcome Mokshitha\n"
+     ]
+    }
+   ],
+   "source": [
+    "name=input(\"Enter the name :\")\n",
+    "print(\"welcome\" , name)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "d898044a-3d07-4115-84c2-268e4ef1f1ac",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "321\n"
+     ]
+    }
+   ],
+   "source": [
+    "m=\"123\"\n",
+    "print(m[::-1])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "0b33f5f1-7ba7-424a-b5de-8910522dad4e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "nhy\n"
+     ]
+    }
+   ],
+   "source": [
+    "m=\"Python\"\n",
+    "print(m[::-2])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "5a325416-c061-4184-95f8-c400d46e6ffb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "nohtyp\n"
+     ]
+    }
+   ],
+   "source": [
+    "m=\"python\"\n",
+    "print(m[::-1])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "6e3618fc-6580-4515-973a-85ce8e56213e",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.9"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
